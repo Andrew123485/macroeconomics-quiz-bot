@@ -75,6 +75,14 @@ Triggered via `/stats`, the bot compiles session performance data into graphical
 * Accuracy trajectory over time;
 * Highlighting high-priority areas that require immediate revision.
 
+<div align="center">
+
+| Sample Question Graphic: Supply & Demand Equilibrium | Analytical Theory Chart: Macroeconomic Modeling |
+|:---:|:---:|
+| <img src="docs/images/economic_chart_sample_1.png" alt="Economic Diagram 1" width="460"/> | <img src="docs/images/economic_chart_sample_2.png" alt="Economic Diagram 2" width="460"/> |
+
+</div>
+
 ### 2.4. FSM State Management & Persistence
 * Built on Aiogram Finite State Machine (FSM) to maintain stateful quizzes across user journeys.
 * User progress, accuracy logs, and completed exercises are persistently stored in JSON datastores.
